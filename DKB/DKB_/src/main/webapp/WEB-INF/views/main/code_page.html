@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Code example list</title>
+</head>
+
+<body style="font-family:Verdana" bgcolor="#FFFFFF">
+
+<table>
+
+    <tbody>
+
+    <tr>
+    <tr><td>  <div th:each="codeExample : ${codeExample}">
+
+            <a th:href="@{/code/{id}(id=${codeExample.getId()})}"
+               th:text="${codeExample.getName()}">user</a>
+
+        </div> </td></tr>
+    </tr>
+
+    </tbody>
+</table>
+
+</body>
+</html>
