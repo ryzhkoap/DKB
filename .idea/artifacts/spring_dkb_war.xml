@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-dkb:war">
+    <output-path>$PROJECT_DIR$/DKB/DKB_/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-dkb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-dkb.war">
+      <element id="artifact" artifact-name="spring-dkb:war exploded" />
+    </root>
+  </artifact>
+</component>

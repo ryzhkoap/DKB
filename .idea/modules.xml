@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DKB.iml" filepath="$PROJECT_DIR$/.idea/DKB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DKB/DKB_/spring-dkb.iml" filepath="$PROJECT_DIR$/DKB/DKB_/spring-dkb.iml" />
+    </modules>
+  </component>
+</project>
